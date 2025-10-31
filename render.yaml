@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: esp32-proxy
+    env: docker
+    dockerfilePath: ./Dockerfile
